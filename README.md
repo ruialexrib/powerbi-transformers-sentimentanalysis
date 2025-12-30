@@ -4,8 +4,6 @@ This project demonstrates how **sentiment analysis** can be integrated into **Po
 
 The solution is implemented inside a **Power BI report**, where a Python script is executed in **Power Query** to analyse textual data and generate sentiment labels and confidence scores.
 
----
-
 ## Files
 
 - `transformers-sentimentanalysis.pbix`  
@@ -20,8 +18,6 @@ The solution is implemented inside a **Power BI report**, where a Python script 
 - `dataset.csv`  
   Dataset containing textual comments used for sentiment analysis.
 
----
-
 ## Sentiment Analysis Approach
 
 Sentiment classification is performed using the **`sentiment-analysis` pipeline** from the **Transformers** library, which by default loads a **DistilBERT-based model** fine-tuned for sentiment detection.
@@ -35,15 +31,11 @@ Core steps:
 
 This approach provides a **context-aware sentiment classification**, suitable for demonstration and exploratory analysis.
 
----
-
 ## Notes and Limitations
 
 - The transformer model is loaded on each Power Query refresh, which may impact performance.
 - This solution is recommended for **small datasets, demos, or academic use**.
 - For production environments, external preprocessing or API-based inference is advised.
-
----
 
 ## License
 
