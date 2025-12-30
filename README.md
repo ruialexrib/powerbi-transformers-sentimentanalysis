@@ -1,4 +1,4 @@
-# powerbi-transformers-sentimentanalysis
+# Power BI Sentiment Analysis with Transformers
 
 This project demonstrates how **sentiment analysis** can be integrated into **Power BI** using **Python** and a **pre-trained transformer model (DistilBERT)** from the Hugging Face ecosystem.
 
