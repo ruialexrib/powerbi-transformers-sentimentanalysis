@@ -7,13 +7,7 @@ The solution is implemented inside a **Power BI report**, where a Python script 
 ## Files
 
 - `transformers-sentimentanalysis.pbix`  
-  Power BI report containing the full workflow:
-  - Data loading from CSV
-  - Text preprocessing
-  - Execution of a Python script in Power Query
-  - Sentiment classification using a pre-trained DistilBERT model
-  - Generation of sentiment labels and confidence scores
-  - Aggregation and visualisation using DAX measures
+  Power BI report containing the full workflow.
 
 - `dataset.csv`  
   Dataset containing textual comments used for sentiment analysis.
